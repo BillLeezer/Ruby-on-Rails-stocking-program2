@@ -1,7 +1,8 @@
-# README
+# Stocking README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README is a Ruby on Rails app, it's a stock market app!  Bill Leezer in a class by John Elder, Codemy,com 
+
+* Will document whatever steps are necessary to get the application up and running.
 
 Things you may want to cover:
 
@@ -20,5 +21,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
