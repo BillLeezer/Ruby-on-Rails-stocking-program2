@@ -1,8 +1,11 @@
 # Stocking README
 
-This README is a Ruby on Rails app, it's a stock market app!  Bill Leezer in a class by John Elder, Codemy,com 
+This README is a Ruby on Rails app, it's a stock 
+market app!  Bill Leezer in a class by John Elder,
+Codemy,com 
 
-* Will document whatever steps are necessary to get the application up and running.
+* Will document whatever steps are necessary to
+  get the application up and running.
 
 Things you may want to cover:
 
