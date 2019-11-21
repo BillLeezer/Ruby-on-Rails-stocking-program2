@@ -26,6 +26,14 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+# bootstrap gemfile
+gem 'bootstrap', '~> 4.3', '>= 4.3.1'
+# Bootstrap JavaScript depends on jQuery. If you're using Rails 5.1+, add the jquery-rails gem to your Gemfile:
+gem 'jquery-rails'
+# gem 'stock_quote', '~> 3.0'  https://rubygems.org/gems/stock_quote
+gem 'stock_quote', '~> 3.0'
+# https://rubygems.org/gems/devise
+gem 'devise', '~> 4.7', '>= 4.7.1'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password

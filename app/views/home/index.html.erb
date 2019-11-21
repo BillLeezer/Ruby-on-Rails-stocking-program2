@@ -1,3 +1,30 @@
+<!--  in app/views/home/index>html.erb  -->
+
 <h1>Stocking</h1>
-<p>Hello, this is my first rails App!</p>
-<p>Find me in app/views/home/index.html.erb</p>
+<!-- <p>Hello, this is my first rails App!</p>
+     <p>Find me in app/views/home/index.html.erb</p>  -->
+
+<!-- Form Tag -->  
+<%= form_tag root_path, :method => 'POST' do %>
+	<%= text_field_tag 'ticker', nil, placeholder: "Enter Ticker Symbol", size: 50 %>
+	<%= submit_tag 'Lookup' %>
+<% end %>
+
+<br/>
+
+<% if @stock %>
+	<img src="<%= @stock.url %>"> <br/><br/>
+	<%= @stock.company_name %><br/><br/>
+	$<%= @stock.latest_price %><br/><br/>
+<% elsif @nothing %>
+	<%= @nothing %>
+<% end %>
+
+<% if @error %>
+	<%= @error %>
+<% end %>
+
+
+
+
+
